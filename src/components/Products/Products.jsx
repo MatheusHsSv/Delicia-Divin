@@ -30,19 +30,19 @@ function Products() {
       {
         nome: "Empadão",
         preco: 25,
-        img: "../img-loja/empadao.jpg",
+        img: "img-loja/empadao.jpg",
       },
 
       {
         nome: "Crepioca",
         preco: 25,
-        img: "../img-loja/crepioca.jpg",
+        img: "img-loja/crepioca.jpg",
       },
 
       {
         nome: "Crepioca de Nutella",
         preco: 30,
-        img: "../../img-loja/crepNutella.jpg",
+        img: "img-loja/crepNutella.jpg",
       },
     ],
 
@@ -50,13 +50,13 @@ function Products() {
       {
         nome: "Coffe Nutella",
         preco: 25,
-        img: "../../img-loja/coffenutella.jpg",
+        img: "img-loja/coffenutella.jpg",
       },
 
       {
         nome: "Cappuchino Ice",
         preco: 25,
-        img: "../../img-loja/cappuchinoIce.jpg",
+        img: "img-loja/cappuchinoIce.jpg",
       },
 
       {
