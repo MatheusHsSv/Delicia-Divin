@@ -14,22 +14,16 @@ function Contact() {
       </div>
 
       <div className="boxContact">
-        <div className="box">
-          
-        </div>
-
         <div className="icon">
           <div>
             <a href="https://www.instagram.com/deliciadivinaa/" target="_blank">
               <img src="../icones/instagram.png" alt="" />
             </a>
-            <h2>Nosso Instagram</h2>
           </div>
           <div>
             <a href="https://wa.me/5519997643065" target="_blank">
               <img src="../icones/whatsapp.png" alt="" />
             </a>
-              <h2>Nosso Contato</h2>
           </div>
           <div className="icon-ifood">
             <a
@@ -38,7 +32,6 @@ function Contact() {
             >
               <img src="../icones/ifood.png" alt="" />
             </a>
-              <h2>Cardapío Ifood</h2>
           </div>
         </div>
       </div>

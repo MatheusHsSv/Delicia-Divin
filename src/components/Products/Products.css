@@ -12,6 +12,7 @@
     font-size: 40px;
     cursor: pointer;
     transition: all 0.3s ;
+    font-family: 'Satisfy', cursive;
     
 }
 
@@ -60,7 +61,7 @@
     border-radius: 20px;
     transition: all 0.3s;
     nav-index: auto;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 .Menu img:hover{
@@ -72,10 +73,10 @@
 .Menu h1{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    font-size: 50px;
-    
-
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Genera Grotesk', sans-serif;
+                                        
 }
 
 .Menu h2{
@@ -83,7 +84,48 @@
     justify-content: center;
     margin: 10px;
     font-size: 30px;
+
 }
+
+
+.container{
+    background-image:url(../../img/b.jpg);
+    background-size: cover;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    margin-top: 80px;
+    padding: 40px;
+    padding-bottom: 60px;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 100px;
+}
+
+.titulo h1{
+    font-size: 100px;
+    color: #E3D19A;
+    background: #FFD98C;
+    background: linear-gradient(to right, #FFD98C 15%, #C99B4B 47%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    font-size: 20px;
+    color: #E3D19A;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+
+
 
 
  @media (max-width:800px) {
@@ -100,6 +142,19 @@
     .Menu img{
         max-width: 350px; 
     }
+
+    .titulo p{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 70px;
+    }
+
+    .tipos button{
+        text-decoration: black;
+    }
+   
  }
 
 
@@ -109,6 +164,7 @@
         margin-top: 40px;
         font-size: 25px;
         padding: 10px;
+        background-color: #7b4323;
     }
 
     .titulo img{
@@ -119,10 +175,11 @@
     }
 
     .titulo h1{
-        background-color:#7b4323;
-        border: 3px solid #E3D19A ;
-        border-radius: 80px;
         padding: 10px;
+    }
+
+    .titulo p{
+        display: none;
     }
     
     .tipos{
@@ -138,7 +195,19 @@
     .Menu img{
         max-width: 300px; 
     }
+
+    .tipos button{
+        text-decoration: black;
+    }
+
+    .tipos button{
+        color: black;
+        
+    }
  }
 
 
+ h1{
+    background-image: url(../../images/img-loja/);
+ }
 

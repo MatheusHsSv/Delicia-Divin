@@ -10,19 +10,19 @@ function Products() {
       {
         nome: "Red velvet",
         preco: 120,
-        img: "../../img-loja/redvelvet.jpg",
+        img: "img-loja/redvelvet.jpg",
       },
 
       {
         nome: "Banoffe",
         preco: 120,
-        img: "../../img-loja/banoffe.jpg",
+        img: "img-loja/banoffe.jpg",
       },
 
       {
         nome: "tiramissu",
         preco: 120,
-        img: "../../img-loja/tiramissu.jpg",
+        img: "img-loja/tiramissu.jpg",
       },
     ],
 
@@ -35,13 +35,13 @@ function Products() {
 
       {
         nome: "Crepioca",
-        preco: 120,
+        preco: 25,
         img: "../../img-loja/crepioca.jpg",
       },
 
       {
         nome: "Crepioca de Nutella",
-        preco: 120,
+        preco: 30,
         img: "../../img-loja/crepNutella.jpg",
       },
     ],
@@ -49,20 +49,20 @@ function Products() {
     GELADOS: [
       {
         nome: "Coffe Nutella",
-        preco: 120,
+        preco: 25,
         img: "../../img-loja/coffenutella.jpg",
       },
 
       {
         nome: "Cappuchino Ice",
-        preco: 120,
+        preco: 25,
         img: "../../img-loja/cappuchinoIce.jpg",
       },
 
       {
         nome: "Choco Ice",
         preco: 25,
-        img: "../../img-loja/chocoice.jpg",
+        img: "img-loja/chocoice.jpg",
       },
     ],
   };
@@ -75,9 +75,16 @@ function Products() {
 
   return (
     <div className="products" id="products">
-      <div className="titulo">
-        <h1>Produtos</h1>
+      <div className="container" data-aos="fade-right">
+      <div className="titulo" data-aos="fade-right" >
+        <h1 data-aos="fade-down">Produtos
+        </h1>
       </div>
+      <div className="text">
+        <p data-aos="fade-down">Os produtos da Delicia Divina são feitos com a divina culinaria mineira cheios de sabor e cor prontos para te oferecer um prazer inimaginavel !</p>
+      </div>
+      </div>
+        
       <div className="tipos" data-aos="fade-down">
         <button onClick={() => setProductType("BOLOS")}>Bolos</button>
         <button onClick={() => setProductType("SALGADO")}>Salgados</button>

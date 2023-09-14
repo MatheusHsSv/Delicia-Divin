@@ -4,6 +4,9 @@ import Top from "./components/Top/Top";
 import Main from "./components/Main/Main";
 import Products from "./components/Products/Products";
 import Contact from "./components/Contact/Contact";
+import Intro from "./components/Intro/Intro"
+import Footer from "./components/Footer/Footer";
+
 function App() {
 
  
@@ -13,8 +16,9 @@ function App() {
     <div className="App">
       <Top/>
       <Main />
+      <Intro/>
       <Products />
-      <Contact />
+      <Footer/>
     </div>
   );
 }
