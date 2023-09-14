@@ -30,13 +30,13 @@ function Products() {
       {
         nome: "Empadão",
         preco: 25,
-        img: "../../img-loja/empadao.jpg",
+        img: "../img-loja/empadao.jpg",
       },
 
       {
         nome: "Crepioca",
         preco: 25,
-        img: "../../img-loja/crepioca.jpg",
+        img: "../img-loja/crepioca.jpg",
       },
 
       {
