@@ -23,7 +23,7 @@ function header() {
        <div className={headerBackg ? "TopColor" : "Top"}>
 
       <div className="logo" data-aos="fade-right" >
-        <img src="../../icones/coffee-cup.png" alt="icon" />
+        <img src="icones/coffee-cup.png" alt="icon" />
         <h1>
           <strong>Delicia</strong> Divina
         </h1>

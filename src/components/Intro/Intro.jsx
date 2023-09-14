@@ -15,7 +15,7 @@ function intro() {
 
     <div className='container-image-text' data-aos="fade-up">
         <div className='image'>
-            <img src="../img-loja/frente.jpg" alt=""/>     
+            <img src="img-loja/frente.jpg" alt=""/>     
         </div>
         <div className='back-container-image-text'>
             

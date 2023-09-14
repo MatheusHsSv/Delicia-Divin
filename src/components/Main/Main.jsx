@@ -6,7 +6,7 @@ function Main() {
   return (
     <div className='Main' id='home'>
         <video autoPlay muted loop>
-          <source src="/videos/video.mp4" />
+          <source src="videos/video.mp4" />
         </video>
     </div>
 
