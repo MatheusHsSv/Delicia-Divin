@@ -20,7 +20,7 @@ function Products() {
       },
 
       {
-        nome: "tiramissu",
+        nome: "Tiramissu",
         preco: 120,
         img: "img-loja/tiramissu.jpg",
       },
@@ -40,7 +40,8 @@ function Products() {
       },
 
       {
-        nome: "Crepioca de Nutella",
+        nome: "Crep de Nutella"  
+        ,
         preco: 30,
         img: "img-loja/crepNutella.jpg",
       },
@@ -70,7 +71,7 @@ function Products() {
   const [ProductType, setProductType] = useState("BOLOS");
 
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1200 });
   }, []);
 
   return (

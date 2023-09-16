@@ -34,7 +34,7 @@
     align-items: center;
     font-size: 30px;
     margin:15px 20px ;
-    color: #7b4323;
+    color:#E3D19A;
 }
 
 .logo strong{
@@ -103,7 +103,7 @@ nav a:hover{
         
     }
     .Top{
-    
+        
         display: flex;
         justify-content: center;
         align-items: center;
