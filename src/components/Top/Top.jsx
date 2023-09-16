@@ -25,7 +25,7 @@ function header() {
       <div className="logo" data-aos="fade-right" >
         <img src="icones/coffee-cup.png" alt="icon" />
         <h1>
-          <strong>Delicia</strong> Divina
+          Delicia Divina
         </h1>
       </div>
       <div className="menuOptions" data-aos="fade-up">

@@ -81,7 +81,7 @@ function Products() {
         </h1>
       </div>
       <div className="text">
-        <p data-aos="fade-down">Os produtos da Delicia Divina são feitos com a divina culinaria mineira cheios de sabor e cor prontos para te oferecer um prazer inimaginavel !</p>
+        <p data-aos="fade-right">Os produtos da Delicia Divina são feitos com a divina culinaria mineira cheios de sabor e cor prontos para te oferecer um prazer inimaginavel !</p>
       </div>
       </div>
         

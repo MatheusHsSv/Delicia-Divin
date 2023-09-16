@@ -34,11 +34,11 @@
     align-items: center;
     font-size: 30px;
     margin:15px 20px ;
-    color: #FDF1AC;
+    color: #7b4323;
 }
 
 .logo strong{
-    color:#FDF1AC ;
+    color:#7b4323 ;
 }
 
 
@@ -108,11 +108,18 @@ nav a:hover{
         justify-content: center;
         align-items: center;
         margin: 0;
+       
     }
 
     .TopColor{
         display: flex;
         justify-content: center;
+    }
+
+    .TopColor .logo{
+
+        color: #E3D19A;
+
     }
 
     .logo h1{

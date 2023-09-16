@@ -31,7 +31,7 @@ function intro() {
             <p>Rua Vasco Altafim 482, Santa Cruz</p>
             <div className='delivery-container'>
             <h2 className='delivery'>Delivery</h2>
-            <button><a href='https://wa.me/5519997643065' target='_blank'>Faça seu Pedido</a></button>
+            <a href='https://wa.me/5519997643065' target='_blank'><button>Faça seu Pedido</button></a>
             </div>
             
             

@@ -8,6 +8,9 @@ function Main() {
         <video autoPlay muted loop>
           <source src="videos/video.mp4" />
         </video>
+        <div className='img-back'>
+        
+        </div>
     </div>
 
   )
