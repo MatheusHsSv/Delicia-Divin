@@ -1,9 +1,11 @@
 import React from 'react'
+import {HiOutlineLocationMarker} from 'react-icons/hi'
+import {AiOutlineClockCircle,} from 'react-icons/ai'
 import "./Intro.css"
 function intro() {
   return (
     <div>
-    <div className='Intro' data-aos="fade-up">
+    <div className='Intro' data-aos="fade-up" id='localizacao'>
         <div className='title' data-aos="fade-left">
             <h1>Nossa Loja</h1>
         </div>
@@ -21,13 +23,18 @@ function intro() {
             
         <div className='text-container-image-text'>
             <h2>Atendimento</h2>
-            <p>Horários</p>
+            
+            <p><AiOutlineClockCircle/> Horários</p>
             <p>9h00 até as 19h00</p>
-            <p>Fechado  (Segunda e Domingo)</p>
+            <h3>Fechado  (Segunda e Domingo)</h3>
+            <p> <HiOutlineLocationMarker/>  Localização</p>
+            <p>Rua Vasco Altafim 482, Santa Cruz</p>
+            <div className='delivery-container'>
             <h2 className='delivery'>Delivery</h2>
             <button><a href='https://wa.me/5519997643065' target='_blank'>Faça seu Pedido</a></button>
-            <h2 className='endereco'>Endereço</h2>
-            <p>Rua Vasco Altafim 482</p>
+            </div>
+            
+            
         </div>
             
         </div>
